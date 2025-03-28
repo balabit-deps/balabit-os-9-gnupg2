@@ -23,3 +23,8 @@ from-master/gpg-change-agent-spawn-2019-07-24-v2.patch
 cherry-picked/1617856888.gnupg-2.3.0-4-gab66c4357.scd-fix-ccid-driver-for-scm-spr332-spr532.patch
 dirmngr-honor-http-proxy.patch
 CVE-2022-34903.patch
+CVE-2025-30258-1.patch
+CVE-2025-30258-2.patch
+CVE-2025-30258-3.patch
+CVE-2025-30258-4.patch
+CVE-2025-30258-5.patch
