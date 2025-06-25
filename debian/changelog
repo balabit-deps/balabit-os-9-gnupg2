@@ -1,3 +1,15 @@
+gnupg2 (2.2.27-3ubuntu2.4) jammy-security; urgency=medium
+
+  * debian/patches/fix-key-validity-regression-due-to-CVE-2025-
+    30258.patch:
+    - Fix a key validity regression following patches for CVE-2025-30258,
+      causing trusted "certify-only" primary keys to be ignored when checking
+      signature on user IDs and computing key validity. This regression makes
+      imported keys signed by a trusted "certify-only" key have an unknown
+      validity (LP: #2114775).
+
+ -- dcpi <dcpi@u22vm>  Wed, 25 Jun 2025 13:54:28 +0000
+
 gnupg2 (2.2.27-3ubuntu2.3) jammy-security; urgency=medium
 
   * SECURITY UPDATE: verification DoS via crafted subkey data
