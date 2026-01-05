@@ -29,3 +29,4 @@ CVE-2025-30258-3.patch
 CVE-2025-30258-4.patch
 CVE-2025-30258-5.patch
 fix-key-validity-regression-due-to-CVE-2025-30258.patch
+CVE-2025-68973.patch

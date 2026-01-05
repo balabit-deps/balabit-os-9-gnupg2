@@ -1,3 +1,12 @@
+gnupg2 (2.2.27-3ubuntu2.5) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Remote Code Execution
+    - debian/patches/CVE-2025-68973.patch: gpg: Fix possible memory
+    corruption in the armor parser.
+    - CVE-2025-68973
+
+ -- Allen Huang <allen.huang@canonical.com>  Mon, 05 Jan 2026 22:14:39 +0000
+
 gnupg2 (2.2.27-3ubuntu2.4) jammy-security; urgency=medium
 
   * debian/patches/fix-key-validity-regression-due-to-CVE-2025-
